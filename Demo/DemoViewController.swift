@@ -52,11 +52,9 @@ class DemoViewController: UIViewController {
     }
 
     /*
-    
-    Please note that the above demonstrates the "porcelain" interface - a more concise and clean way to work with the HUD.
+        Please note that the above demonstrates the "porcelain" interface - a more concise and clean way to work with the HUD.
     If you need more options and flexbility, feel free to use the underlying "plumbing". E.g.:
-    
-    PKHUD.sharedHUD.show()
+        PKHUD.sharedHUD.show()
     PKHUD.sharedHUD.contentView = PKHUDSuccessView(title: "Success!", subtitle: nil)
     PKHUD.sharedHUD.hide(afterDelay: 2.0)
     */
